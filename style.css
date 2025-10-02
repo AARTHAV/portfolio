@@ -113,4 +113,18 @@ body.dark-mode .contact-info {
 .contact-info strong {
   color: #0077cc;
 }
+/* Portfolio Images */
+.portfolio-items .item img {
+  width: 100%;
+  height: 200px;           /* fixed height for uniformity */
+  object-fit: cover;       /* crop to fill without distortion */
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-items .item img:hover {
+  transform: scale(1.05);  /* zoom effect on hover */
+}
+
 
