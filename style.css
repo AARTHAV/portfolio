@@ -99,3 +99,17 @@ body.dark-mode .modal-content{background:#1e1e1e; color:#f1f1f1;}
   .whatsapp-icon svg{width:24px; height:24px;}
   .stats-container{flex-direction:column; align-items:center;}
 }
+
+/* Portfolio Images */
+.portfolio-items .item img {
+  width: 100%;
+  height: 200px;           /* fixed height for uniformity */
+  object-fit: cover;       /* crop to fill without distortion */
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-items .item img:hover {
+  transform: scale(1.05);  /* zoom effect on hover */
+}
