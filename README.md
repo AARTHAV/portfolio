@@ -12,4 +12,4 @@ Hi 👋, I’m Nirav, a **Software Developer / Lead** specializing in:
 - **Shop Store Receipt App** – Android + APIs for QR-based material receiving.  
 - **Central Flux Application** – QR + kiosk system for material issue/return.  
 
-📄 [Download My Resume](./Nirav_Makwana_Resume_2025.pdf)
+📄 [Download My Resume](./resume.pdf)
